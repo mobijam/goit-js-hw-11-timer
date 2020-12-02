@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+body {
+  margin: 0 auto;
+
+  background-image: url('./img/christmas-pattern-background-1573141102hqe.jpg');
+  background-size: cover;
+}
+
+.timer-container {
+  font-family: 'Covered By Your Grace', cursive;
+  color: rgb(110, 10, 10);
+  text-shadow: 0 0 20px rgb(239, 242, 243), 0 0 20px rgba(64, 66, 66, 0);
+  text-align: center;
+
+  .timer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80%;
+  }
+
+  .field {
+    margin-right: 70px;
+    padding: 0;
+  }
+
+  .value {
+    letter-spacing: 0.05em;
+    font-size: 400px;
+    padding: 5px 0;
+  }
+
+  .label {
+    display: block;
+    letter-spacing: 0.1em;
+    font-size: 150px;
+  }
+
+  .target-date {
+    letter-spacing: 0.1em;
+    font-size: 250px;
+    padding: 20px 0 0;
+  }
+}
